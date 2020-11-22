@@ -10,7 +10,7 @@ import (
 
 	"github.com/GeertJohan/go-sourcepath"
 	"github.com/k0kubun/pp"
-	"github.com/rai-project/tracer/convert/flame"
+	"github.com/c3sr/tracer/convert/flame"
 )
 
 func main() {

@@ -9,9 +9,9 @@ import (
 	"sync"
 
 	"github.com/opentracing/opentracing-go"
-	"github.com/rai-project/tracer"
-	"github.com/rai-project/tracer/clibrary/env"
-	"github.com/rai-project/utils"
+	"github.com/c3sr/tracer"
+	"github.com/c3sr/tracer/clibrary/env"
+	"github.com/c3sr/utils"
 	jaeger "github.com/uber/jaeger-client-go"
 
 	"github.com/k0kubun/pp"
@@ -20,8 +20,8 @@ import (
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/sirupsen/logrus"
 
-	"github.com/rai-project/config"
-	"github.com/rai-project/logger"
+	"github.com/c3sr/config"
+	"github.com/c3sr/logger"
 )
 
 var (

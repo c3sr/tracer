@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/rai-project/config"
-	"github.com/rai-project/logger"
-	"github.com/rai-project/tracer"
-	_ "github.com/rai-project/tracer/jaeger"
-	_ "github.com/rai-project/tracer/noop"
+	"github.com/c3sr/config"
+	"github.com/c3sr/logger"
+	"github.com/c3sr/tracer"
+	_ "github.com/c3sr/tracer/jaeger"
+	_ "github.com/c3sr/tracer/noop"
 	"github.com/sirupsen/logrus"
 )
 

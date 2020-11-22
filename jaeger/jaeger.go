@@ -7,19 +7,19 @@ import (
 	"runtime"
 	"strings"
 
-	//machineinfo "github.com/rai-project/machine/info"
+	//machineinfo "github.com/c3sr/machine/info"
 	opentracing "github.com/opentracing/opentracing-go"
 	jaeger "github.com/uber/jaeger-client-go"
 	"github.com/uber/jaeger-client-go/transport/zipkin"
 	zpk "github.com/uber/jaeger-client-go/zipkin"
 
-	"github.com/rai-project/config"
-	osinfo "github.com/rai-project/machine/os"
-	"github.com/rai-project/tracer"
-	"github.com/rai-project/tracer/defaults"
-	"github.com/rai-project/tracer/observer"
-	raiutils "github.com/rai-project/utils"
-	"github.com/rai-project/uuid"
+	"github.com/c3sr/config"
+	osinfo "github.com/c3sr/machine/os"
+	"github.com/c3sr/tracer"
+	"github.com/c3sr/tracer/defaults"
+	"github.com/c3sr/tracer/observer"
+	raiutils "github.com/c3sr/utils"
+	"github.com/c3sr/uuid"
 )
 
 type Tracer struct {

@@ -12,8 +12,8 @@ import (
 	"github.com/opentracing-contrib/go-observer"
 	opentracing "github.com/opentracing/opentracing-go"
 	olog "github.com/opentracing/opentracing-go/log"
-	"github.com/rai-project/config"
-	nvml "github.com/rai-project/nvml-go"
+	"github.com/c3sr/config"
+	nvml "github.com/c3sr/nvml-go"
 	"github.com/spf13/cast"
 )
 

@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/rai-project/tracer/clibrary/env"
+	"github.com/c3sr/tracer/clibrary/env"
 )
 
 func GetTraceIdEnv() string {

@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	opentracing "github.com/opentracing/opentracing-go"
-	"github.com/rai-project/tracer"
-	_ "github.com/rai-project/tracer/jaeger"
+	"github.com/c3sr/tracer"
+	_ "github.com/c3sr/tracer/jaeger"
 )
 
 func BenchmarkTracer(b *testing.B) {

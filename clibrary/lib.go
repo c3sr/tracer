@@ -19,9 +19,9 @@ import (
 	"gitlab.com/NebulousLabs/fastrand"
 
 	"github.com/k0kubun/pp"
-	"github.com/rai-project/tracer"
-	_ "github.com/rai-project/tracer/jaeger"
-	// _ "github.com/rai-project/tracer/noop"
+	"github.com/c3sr/tracer"
+	_ "github.com/c3sr/tracer/jaeger"
+	// _ "github.com/c3sr/tracer/noop"
 )
 
 type spanInfo struct {

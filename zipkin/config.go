@@ -2,10 +2,10 @@ package zipkin
 
 import (
 	"github.com/k0kubun/pp"
-	"github.com/rai-project/config"
-	"github.com/rai-project/tracer"
-	"github.com/rai-project/tracer/utils"
-	"github.com/rai-project/vipertags"
+	"github.com/c3sr/config"
+	"github.com/c3sr/tracer"
+	"github.com/c3sr/tracer/utils"
+	"github.com/c3sr/vipertags"
 )
 
 type zipkinConfig struct {

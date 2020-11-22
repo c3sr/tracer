@@ -5,7 +5,7 @@ import (
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 	"github.com/openzipkin/zipkin-go-opentracing/thrift/gen-go/zipkincore"
-	"github.com/rai-project/tracer"
+	"github.com/c3sr/tracer"
 )
 
 func ToHTTPRequest(tr tracer.Tracer) echo.MiddlewareFunc {

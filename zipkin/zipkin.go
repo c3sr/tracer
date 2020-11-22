@@ -7,9 +7,9 @@ import (
 
 	opentracing "github.com/opentracing/opentracing-go"
 	zipkin "github.com/openzipkin/zipkin-go-opentracing"
-	"github.com/rai-project/tracer"
-	"github.com/rai-project/utils"
-	"github.com/rai-project/uuid"
+	"github.com/c3sr/tracer"
+	"github.com/c3sr/utils"
+	"github.com/c3sr/uuid"
 )
 
 type Tracer struct {

@@ -8,7 +8,7 @@ import (
 
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/pkg/errors"
-	"github.com/rai-project/tracer"
+	"github.com/c3sr/tracer"
 )
 
 // Trace is an entry of trace format.

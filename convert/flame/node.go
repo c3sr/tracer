@@ -18,7 +18,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/rai-project/tracer/convert"
+	"github.com/c3sr/tracer/convert"
 )
 
 type Node struct {

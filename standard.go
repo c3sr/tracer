@@ -6,9 +6,9 @@ import (
 	"sync"
 
 	opentracing "github.com/opentracing/opentracing-go"
-	"github.com/rai-project/config"
-	"github.com/rai-project/tracer/defaults"
-	"github.com/rai-project/tracer/observer"
+	"github.com/c3sr/config"
+	"github.com/c3sr/tracer/defaults"
+	"github.com/c3sr/tracer/observer"
 )
 
 var (

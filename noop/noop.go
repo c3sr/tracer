@@ -4,8 +4,8 @@ import (
 	"context"
 
 	opentracing "github.com/opentracing/opentracing-go"
-	"github.com/rai-project/tracer"
-	"github.com/rai-project/uuid"
+	"github.com/c3sr/tracer"
+	"github.com/c3sr/uuid"
 )
 
 type Tracer struct {

@@ -3,8 +3,8 @@ package jaeger
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/rai-project/config"
-	logger "github.com/rai-project/logger"
+	"github.com/c3sr/config"
+	logger "github.com/c3sr/logger"
 )
 
 type loggerWrapper struct {

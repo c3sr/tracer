@@ -8,8 +8,8 @@ import (
 
 	"github.com/Unknwon/com"
 	"github.com/pkg/errors"
-	"github.com/rai-project/tracer/convert"
-	cnv "github.com/rai-project/tracer/convert"
+	"github.com/c3sr/tracer/convert"
+	cnv "github.com/c3sr/tracer/convert"
 	model "github.com/uber/jaeger/model/json"
 )
 

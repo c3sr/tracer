@@ -2,8 +2,8 @@ package tracer
 
 import (
 	"github.com/k0kubun/pp"
-	"github.com/rai-project/config"
-	"github.com/rai-project/vipertags"
+	"github.com/c3sr/config"
+	"github.com/c3sr/vipertags"
 )
 
 type tracerConfig struct {
@@ -15,7 +15,7 @@ type tracerConfig struct {
 }
 
 var (
-	// Config holds the data read by rai-project/config
+	// Config holds the data read by c3sr/config
 	Config = &tracerConfig{
 		done:  make(chan struct{}),
 		Level: NO_TRACE,

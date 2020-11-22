@@ -40,7 +40,7 @@ class SpanStartFromContext_return(ctypes.Structure):
 RAITRACER_PATHS = [
     "librai_tracer.so",
     os.environ["GOPATH"]
-    + "/src/github.com/rai-project/tracer/clibrary/dist/MacOSX-x86-64/librai_tracer.so",
+    + "/src/github.com/c3sr/tracer/clibrary/dist/MacOSX-x86-64/librai_tracer.so",
 ]
 NO_TRACE = 0
 APPLICATION_TRACE = 1
