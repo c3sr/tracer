@@ -83,53 +83,6 @@
   version = "v0.3.4"
 
 [[projects]]
-  digest = "1:5828c91c4ae97e2cb126f5b0c0a0dc8a8f5058389afe040649c5c3d95149647e"
-  name = "github.com/aws/aws-sdk-go"
-  packages = [
-    "aws",
-    "aws/awserr",
-    "aws/awsutil",
-    "aws/client",
-    "aws/client/metadata",
-    "aws/corehandlers",
-    "aws/credentials",
-    "aws/credentials/ec2rolecreds",
-    "aws/credentials/endpointcreds",
-    "aws/credentials/processcreds",
-    "aws/credentials/stscreds",
-    "aws/csm",
-    "aws/defaults",
-    "aws/ec2metadata",
-    "aws/endpoints",
-    "aws/request",
-    "aws/session",
-    "aws/signer/v4",
-    "internal/context",
-    "internal/ini",
-    "internal/sdkio",
-    "internal/sdkmath",
-    "internal/sdkrand",
-    "internal/sdkuri",
-    "internal/shareddefaults",
-    "internal/strings",
-    "internal/sync/singleflight",
-    "private/protocol",
-    "private/protocol/json/jsonutil",
-    "private/protocol/jsonrpc",
-    "private/protocol/query",
-    "private/protocol/query/queryutil",
-    "private/protocol/rest",
-    "private/protocol/restjson",
-    "private/protocol/xml/xmlutil",
-    "service/sts",
-    "service/sts/stsiface",
-    "service/xray",
-  ]
-  pruneopts = "UT"
-  revision = "b6ab7f8d2ef9cce9ffe55475af0aae9445e4ec98"
-  version = "v1.35.33"
-
-[[projects]]
   branch = "master"
   digest = "1:65f37abbbbbe167e815eb06ac24f514efedc4d084dbab1b5b3b1c1a541132704"
   name = "github.com/benesch/cgosymbolizer"
@@ -151,14 +104,6 @@
   pruneopts = "UT"
   revision = "50dbdc1d2c6e9630ebcfd38e4aac5ce0dbf1d8e8"
   version = "v0.0.3"
-
-[[projects]]
-  branch = "master"
-  digest = "1:3bfd5583cfb2b99c6d28786818594c8eed761ca3e846809222f000157e97e103"
-  name = "github.com/c3sr/aws"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "53e1f2d5dee3ad800230cad226acf1d5c731daf2"
 
 [[projects]]
   branch = "master"
@@ -204,12 +149,12 @@
   revision = "3a66214ea3aa0157acb2be6e47d4c548e9ac7b65"
 
 [[projects]]
-  digest = "1:cac592354abf9d569dd7ce41f561a74d871a8a7d6069b7eb3dab6c524480e9d8"
+  branch = "master"
+  digest = "0:"
   name = "github.com/c3sr/nvml-go"
   packages = ["."]
   pruneopts = "UT"
-  revision = "1727b8458e25f8a7d41981dca1760fb2ddc8618a"
-  version = "v0.1.0"
+  revision = "c893af65d8c554dae557672dc257f3849a1435db"
 
 [[projects]]
   branch = "master"
@@ -560,13 +505,6 @@
   pruneopts = "UT"
   revision = "dc7c13fece037a4a36e2b3c69db4991498d30692"
   version = "v1.0.0"
-
-[[projects]]
-  digest = "1:bb81097a5b62634f3e9fec1014657855610c82d19b9a40c17612e32651e35dca"
-  name = "github.com/jmespath/go-jmespath"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "c2b33e84"
 
 [[projects]]
   digest = "1:ecd9aa82687cf31d1585d4ac61d0ba180e42e8a6182b85bd785fcca8dfeefc1b"
@@ -1561,9 +1499,6 @@
     "github.com/Unknwon/com",
     "github.com/Workiva/go-datastructures/augmentedtree",
     "github.com/apex/log",
-    "github.com/aws/aws-sdk-go/aws",
-    "github.com/aws/aws-sdk-go/service/xray",
-    "github.com/c3sr/aws",
     "github.com/c3sr/config",
     "github.com/c3sr/go-cupti",
     "github.com/c3sr/logger",
