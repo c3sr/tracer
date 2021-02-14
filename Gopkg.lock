@@ -83,14 +83,6 @@
   version = "v0.3.4"
 
 [[projects]]
-  branch = "master"
-  digest = "1:65f37abbbbbe167e815eb06ac24f514efedc4d084dbab1b5b3b1c1a541132704"
-  name = "github.com/benesch/cgosymbolizer"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "bec6fe6e597bfeb28b9d8c0b998772635fceea8b"
-
-[[projects]]
   digest = "1:327435005b9a21d729d0c72723cf00db6b452a92be1a59f4ab0cf4aea34c4f23"
   name = "github.com/bketelsen/crypt"
   packages = [
@@ -106,87 +98,60 @@
   version = "v0.0.3"
 
 [[projects]]
-  branch = "master"
-  digest = "1:3e3f58d4204ffe581c8bf7140026b17cfa55704e2e4f534398a234a19bd08af1"
+  digest = "1:b361cb418fa9e2e100ed6639ad998f24458fd5a620a2225ea14d4f73d99040bf"
   name = "github.com/c3sr/config"
   packages = ["."]
   pruneopts = "UT"
-  revision = "e9d07ff805c35518081968c3cdb61e2a452cacff"
+  revision = "35ed8e2450bf72580413486a801a469faeb04189"
+  version = "v0.1.0"
 
 [[projects]]
-  branch = "master"
-  digest = "1:2d21407be68bbf31ce2b510866ab039a203e9d94adabf844764e1a9c476ac910"
-  name = "github.com/c3sr/go-cupti"
-  packages = [
-    ".",
-    "types",
-  ]
-  pruneopts = "UT"
-  revision = "f433b3ab9de5302ef014e8c022b37ae8cfe274c0"
-
-[[projects]]
-  branch = "master"
-  digest = "1:fee881074ab4b9858f916e89041fcd6db2c8046ebdb1faf3238b79d5d8b6394c"
+  digest = "1:46ce66a3ae9e492940d76b6da51c79650bd8874e92f42a8fca2d912d5b6472a4"
   name = "github.com/c3sr/logger"
   packages = ["."]
   pruneopts = "UT"
-  revision = "3a1b4f2fe0a8cff889e1ee8fbda6967bd9c0d550"
+  revision = "159591d2749003f68b0dacfadf03ab90a18f66c1"
+  version = "v0.1.0"
 
 [[projects]]
-  branch = "master"
   digest = "1:e7125b75b38b4fc4543a318d2b5a4fc7a7f57afef38d2d03986340b27d40b812"
   name = "github.com/c3sr/machine"
   packages = ["os"]
   pruneopts = "UT"
-  revision = "6628880864ba48724ca5f7b63fe9995d4c5f3689"
+  revision = "96aea5331fe77b9d53c90a5b58b3a12ceb46cea7"
+  version = "v0.1.0"
 
 [[projects]]
-  branch = "master"
-  digest = "1:4dae73732225311084a7d04f66d4351a6f699a856de0059cf9ef3c5fdfd03242"
-  name = "github.com/c3sr/nvidia-smi"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "3a66214ea3aa0157acb2be6e47d4c548e9ac7b65"
-
-[[projects]]
-  branch = "master"
-  digest = "0:"
+  digest = "1:4f4be42ea97b60c7f4a9ffbef06f462af9505bcace5177c9ccdf6191737a06a0"
   name = "github.com/c3sr/nvml-go"
   packages = ["."]
   pruneopts = "UT"
-  revision = "c893af65d8c554dae557672dc257f3849a1435db"
+  revision = "54dd66e81b09c73bb3ee3b74b0befd6dbbf78740"
+  version = "v0.2.0"
 
 [[projects]]
-  branch = "master"
-  digest = "1:d037bb37a16bc993801a5cad3edf83058e54814ec8ae805327174adee51d3fbc"
-  name = "github.com/c3sr/tegra"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "e3625f658736e0adf15862b5ee7ed6f405a69411"
-
-[[projects]]
-  branch = "master"
-  digest = "1:76f07a4f650254ba509f97107408ba2d3923f21490ed983fdd3d79e8c6b7838b"
+  digest = "1:445b0d82fc1eb84f8c675757c6785021d8992c180c3c62e9ad30434b93c56500"
   name = "github.com/c3sr/utils"
   packages = ["."]
   pruneopts = "UT"
-  revision = "1131f94737fa162c7abd799d49e0e61d28827bd7"
+  revision = "8c94d0bf9baa1095effd041da69653e1103b68c7"
+  version = "v0.1.0"
 
 [[projects]]
-  branch = "master"
-  digest = "1:c7c5356462640cb1ce5337a7f48991bcdfa7f768af0037f40f7dc3b5433e56fe"
+  digest = "1:bec8d02ce7d7bd43c3ff435b71c6f75ab3e6ac35b69b50f457f8b3acfab11d17"
   name = "github.com/c3sr/uuid"
   packages = ["."]
   pruneopts = "UT"
-  revision = "16bb3b3c5514e4f48dc6740cd05a6e0b55a56353"
+  revision = "97e22344270854c12f76eb69850d917025368add"
+  version = "v0.1.0"
 
 [[projects]]
-  branch = "master"
-  digest = "1:da993593fb42403a3695f952e3666346fc3b510862c3a1086006c7566fa004b9"
+  digest = "1:77555ff63552bbfc1b00aa018fb013e76256d70764ded9cd5a1dad891a740681"
   name = "github.com/c3sr/vipertags"
   packages = ["."]
   pruneopts = "UT"
-  revision = "c54404b591155101716768833b5eee64aca9a3cd"
+  revision = "b8a9fd68c520fe07ffbf7f642b7e73eac2a0434f"
+  version = "v0.1.0"
 
 [[projects]]
   digest = "1:f438d91be142877c3ad83157992c91de787ddfbddcc2a7da1ef6ef61606cadc4"
@@ -464,30 +429,6 @@
   version = "v0.9.5"
 
 [[projects]]
-  digest = "1:42c1a73082c9233e74db587b2ca532ac3a19c9311dd8b30374af27fb7a282ce1"
-  name = "github.com/iancoleman/strcase"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "31e1dd6d285ceb0a110aec6898a75dd6934a35ed"
-  version = "v0.1.2"
-
-[[projects]]
-  branch = "master"
-  digest = "1:9867e43ac0c720629d738554fcb18dceef6c1837e1111b4df6b0529cd7dd90ac"
-  name = "github.com/ianlancetaylor/cgosymbolizer"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "6689ec8725c4b28268629a483d7efdb207ccda6c"
-
-[[projects]]
-  branch = "master"
-  digest = "1:26c36bad6c0806992724f93e41559acc6d485575291dc6ca4d507bb9667d9bea"
-  name = "github.com/ianlancetaylor/demangle"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "28f6c0f3b63983aaa99575ca3b693afff7996387"
-
-[[projects]]
   digest = "1:eba10af56a904e7d797ccbdca4a6fae4029537b0118b6582f9f93e025b86af2a"
   name = "github.com/imdario/mergo"
   packages = ["."]
@@ -513,14 +454,6 @@
   pruneopts = "UT"
   revision = "23d116af351c84513e1946b527c88823e476be13"
   version = "v1.3.0"
-
-[[projects]]
-  digest = "1:e0b019ee3a64ce51eeb7e0097a372305ac8caf338e50adf8e4bf3b7ce928e132"
-  name = "github.com/josharian/intern"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "8e6ff32b3e7c0b018c43953085fe2ac330fe9acd"
-  version = "v1.0.0"
 
 [[projects]]
   digest = "1:7d7ccfe00918baede5a3daf233bad41bb922692f58a57a687f8b010e207a167b"
@@ -590,19 +523,6 @@
   pruneopts = "UT"
   revision = "0e5c09062c2daef666bd279e2d2d9f25f218f2be"
   version = "v1.8.4"
-
-[[projects]]
-  digest = "1:5d9e883e1964e9587344e202b3f61530a2c90f4673f5d28f33ffca8236c6c82d"
-  name = "github.com/mailru/easyjson"
-  packages = [
-    ".",
-    "buffer",
-    "jlexer",
-    "jwriter",
-  ]
-  pruneopts = "UT"
-  revision = "8ab5ff9cd8e4e432e8b79f6c47d324a31dd803cf"
-  version = "v0.7.6"
 
 [[projects]]
   digest = "1:304d25ecc3f4ca39f894c959254d3f5fc6176276ccf1f874ded0cd441e2f964f"
@@ -764,14 +684,6 @@
   pruneopts = "UT"
   revision = "792786c7400a136282c1664665ae0a8db921c6c2"
   version = "v1.0.0"
-
-[[projects]]
-  branch = "master"
-  digest = "1:abab2c85a12689a4218964335aa990ff33b4f3c7ba48e3283861c4714d2e93b1"
-  name = "github.com/rainycape/dl"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "1b01514224a1a60a6bcbb0b6b9d3a00ec14ae17f"
 
 [[projects]]
   branch = "master"
@@ -1012,14 +924,6 @@
   version = "v1.2.1"
 
 [[projects]]
-  branch = "master"
-  digest = "1:e7b091967bad5c6d958dae84215f073654e66c742fb8473c0c97ed9b18b9af09"
-  name = "gitlab.com/NebulousLabs/fastrand"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "603482d69e405db4890e654c9807b4c772e86c81"
-
-[[projects]]
   digest = "1:c1dc0e2afaa0e7a432d3f748d9757a473a1992fc2d0cacc210123b0aaf90efed"
   name = "go.etcd.io/etcd"
   packages = [
@@ -1068,12 +972,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:5aea53ce71795379ffcde90e97abf5a32f24c499e32040fd48a6ba44c0980c13"
+  digest = "1:d748a4596191478e396385656136a0018c6750140481235c76881ef0012270f0"
   name = "golang.org/x/crypto"
   packages = [
     "acme",
     "acme/autocert",
-    "blake2b",
     "cast5",
     "md4",
     "openpgp",
@@ -1111,7 +1014,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:46e8ae27fc836edb3830a8a5506eac9dbe51c247e213eb97f95b4d79c26a9122"
+  digest = "1:d4bbe3423f919d028a91232ff003d71efe167b48d50e2c3ba5841effa437397c"
   name = "golang.org/x/net"
   packages = [
     "context",
@@ -1128,8 +1031,6 @@
     "proxy",
     "publicsuffix",
     "trace",
-    "webdav",
-    "webdav/internal/xml",
   ]
   pruneopts = "UT"
   revision = "69a78807bb2bb6d1599c68698c6b009505012083"
@@ -1158,10 +1059,9 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:ec500d738cf30d9f2bb277a726196ce9eef44c8125f1d0b23cca1f82cac53bd9"
+  digest = "1:720b0de92f7ce47bb56528f7f25362f8173bbff69fd82190486a495693a8ccac"
   name = "golang.org/x/sys"
   packages = [
-    "cpu",
     "internal/unsafeheader",
     "unix",
     "windows",
@@ -1500,14 +1400,12 @@
     "github.com/Workiva/go-datastructures/augmentedtree",
     "github.com/apex/log",
     "github.com/c3sr/config",
-    "github.com/c3sr/go-cupti",
     "github.com/c3sr/logger",
     "github.com/c3sr/machine/os",
     "github.com/c3sr/nvml-go",
     "github.com/c3sr/utils",
     "github.com/c3sr/uuid",
     "github.com/c3sr/vipertags",
-    "github.com/fatih/color",
     "github.com/grpc-ecosystem/go-grpc-middleware",
     "github.com/grpc-ecosystem/go-grpc-middleware/tags",
     "github.com/grpc-ecosystem/go-grpc-middleware/testing",
@@ -1517,7 +1415,6 @@
     "github.com/imdario/mergo",
     "github.com/k0kubun/pp",
     "github.com/labstack/echo",
-    "github.com/mitchellh/go-homedir",
     "github.com/nicolai86/instruments",
     "github.com/opentracing-contrib/go-observer",
     "github.com/opentracing-contrib/perfevents/go",
@@ -1543,7 +1440,6 @@
     "github.com/uber/jaeger/model",
     "github.com/uber/jaeger/model/json",
     "github.com/ulule/deepcopier",
-    "gitlab.com/NebulousLabs/fastrand",
     "golang.org/x/sync/syncmap",
     "google.golang.org/grpc",
     "google.golang.org/grpc/codes",
