@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/Unknwon/com"
+	"github.com/unknwon/com"
 	"github.com/imdario/mergo"
 	"github.com/pkg/errors"
 	"github.com/c3sr/tracer/convert"

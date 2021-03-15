@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"sort"
 
-	"github.com/Unknwon/com"
+	"github.com/unknwon/com"
 	"github.com/Workiva/go-datastructures/augmentedtree"
 	"github.com/pkg/errors"
 	model "github.com/uber/jaeger/model/json"

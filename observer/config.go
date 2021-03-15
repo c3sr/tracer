@@ -1,7 +1,7 @@
 package observer
 
 import (
-	"github.com/k0kubun/pp"
+	"github.com/k0kubun/pp/v3"
 	"github.com/opentracing-contrib/go-observer"
 	"github.com/c3sr/config"
 	"github.com/c3sr/vipertags"

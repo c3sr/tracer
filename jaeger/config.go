@@ -5,7 +5,7 @@ import (
 
 	"github.com/c3sr/tracer"
 
-	"github.com/k0kubun/pp"
+	"github.com/k0kubun/pp/v3"
 	"github.com/c3sr/config"
 	"github.com/c3sr/tracer/utils"
 	"github.com/c3sr/vipertags"
