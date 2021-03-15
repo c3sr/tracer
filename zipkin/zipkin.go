@@ -6,7 +6,7 @@ import (
 	"io"
 
 	opentracing "github.com/opentracing/opentracing-go"
-	zipkin "github.com/openzipkin/zipkin-go-opentracing"
+	zipkin "github.com/openzipkin-contrib/zipkin-go-opentracing"
 	"github.com/c3sr/tracer"
 	"github.com/c3sr/utils"
 	"github.com/c3sr/uuid"
