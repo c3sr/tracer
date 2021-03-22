@@ -25,7 +25,7 @@ require (
 	github.com/go-ole/go-ole v1.2.5 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.2.2
 	github.com/imdario/mergo v0.3.12
-	github.com/jaegertracing/jaeger v0.0.0-00010101000000-000000000000 // indirect
+	github.com/jaegertracing/jaeger v1.22.0 // indirect
 	github.com/k0kubun/pp/v3 v3.0.7
 	github.com/labstack/echo/v4 v4.2.1
 	github.com/nicolai86/instruments v0.0.0-20170630130909-a667d8f6e278
@@ -38,7 +38,7 @@ require (
 	github.com/sirupsen/logrus v1.8.1
 	github.com/spf13/cast v1.3.1
 	github.com/stretchr/testify v1.7.0
-	github.com/uber/jaeger v0.0.0-00010101000000-000000000000
+	github.com/uber/jaeger v1.22.0
 	github.com/uber/jaeger-client-go v2.25.0+incompatible
 	github.com/ulule/deepcopier v0.0.0-20200430083143-45decc6639b6
 	github.com/unknwon/com v1.0.1
