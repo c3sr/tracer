@@ -89,7 +89,6 @@ func (t *Tracer) Init(serviceName string, opts ...tracer.Option) error {
 
 	// Adds support for injecting and extracting Zipkin B3 Propagation HTTP headers, for use with other Zipkin collectors.
 	zipkinPropagator := zpk.NewZipkinB3HTTPHeaderPropagator()
-	_ = zipkinPropagator
 
 	tracerOpts := []jaeger.TracerOption{
 		jaeger.TracerOptions.Tag("app", config.App.Name),
