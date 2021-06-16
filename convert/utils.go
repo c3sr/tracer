@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	model "github.com/uber/jaeger/model/json"
+	model "github.com/jaegertracing/jaeger/model/json"
 )
 
 func timeUnit(unit string) (time.Duration, error) {

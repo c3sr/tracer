@@ -9,9 +9,9 @@ import (
 
 	//machineinfo "github.com/c3sr/machine/info"
 	opentracing "github.com/opentracing/opentracing-go"
-	jaeger "github.com/uber/jaeger-client-go"
-	"github.com/uber/jaeger-client-go/transport/zipkin"
-	zpk "github.com/uber/jaeger-client-go/zipkin"
+	jaeger "github.com/jaegertracing/jaeger-client-go"
+	"github.com/jaegertracing/jaeger-client-go/transport/zipkin"
+	zpk "github.com/jaegertracing/jaeger-client-go/zipkin"
 
 	"github.com/c3sr/config"
 	osinfo "github.com/c3sr/machine/os"

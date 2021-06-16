@@ -2,7 +2,7 @@ package convert
 
 import (
 	"github.com/pkg/errors"
-	model "github.com/uber/jaeger/model/json"
+	model "github.com/jaegertracing/jaeger/model/json"
 )
 
 func FilterTraceByDepth(trace model.Trace, depth int) (model.Trace, error) {

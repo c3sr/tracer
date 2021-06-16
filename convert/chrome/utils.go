@@ -4,7 +4,7 @@ import (
 	"hash/fnv"
 	"time"
 
-	m "github.com/uber/jaeger/model"
+	m "github.com/jaegertracing/jaeger/model"
 )
 
 func hash64(s string) uint64 {
