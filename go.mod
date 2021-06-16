@@ -2,9 +2,7 @@ module github.com/c3sr/tracer
 
 go 1.15
 
-replace google.golang.org/grpc => google.golang.org/grpc v1.29.1
-
-replace github.com/openzipkin-contrib/zipkin-go-opentracing => github.com/openzipkin-contrib/zipkin-go-opentracing v0.3.5
+replace github.com/uber/jaeger-client-go => github.com/jaegertracing/jaeger-client-go v2.29.1+incompatible
 
 require (
 	github.com/GeertJohan/go-sourcepath v0.0.0-20150925135350-83e8b8723a9b
@@ -19,8 +17,10 @@ require (
 	github.com/c3sr/uuid v1.0.1
 	github.com/c3sr/vipertags v1.0.0
 	github.com/go-ole/go-ole v1.2.5 // indirect
-	github.com/grpc-ecosystem/go-grpc-middleware v1.2.2
+	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/imdario/mergo v0.3.12
+	github.com/jaegertracing/jaeger v1.23.0
+	github.com/jaegertracing/jaeger-client-go v2.29.1+incompatible
 	github.com/k0kubun/pp/v3 v3.0.7
 	github.com/labstack/echo/v4 v4.2.1
 	github.com/nicolai86/instruments v0.0.0-20170630130909-a667d8f6e278
@@ -33,9 +33,8 @@ require (
 	github.com/sirupsen/logrus v1.8.1
 	github.com/spf13/cast v1.3.1
 	github.com/stretchr/testify v1.7.0
-	github.com/uber/jaeger-client-go v2.25.0+incompatible
 	github.com/ulule/deepcopier v0.0.0-20200430083143-45decc6639b6
 	github.com/unknwon/com v1.0.1
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	google.golang.org/grpc v1.36.0
+	google.golang.org/grpc v1.29.1
 )
