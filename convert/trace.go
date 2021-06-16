@@ -1,6 +1,6 @@
 package convert
 
-import model "github.com/uber/jaeger/model/json"
+import model "github.com/jaegertracing/jaeger/model/json"
 
 type TraceInformation struct {
 	Traces []model.Trace     `bson:"data,omitempty" json:"data,omitempty"`

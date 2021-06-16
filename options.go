@@ -1,7 +1,7 @@
 package tracer
 
 import (
-	jaeger "github.com/uber/jaeger-client-go"
+	jaeger "github.com/jaegertracing/jaeger-client-go"
 )
 
 type Option = jaeger.TracerOption

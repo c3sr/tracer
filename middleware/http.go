@@ -4,7 +4,6 @@ import (
 	"github.com/labstack/echo/v4"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
-	"github.com/openzipkin-contrib/zipkin-go-opentracing/thrift/gen-go/zipkincore"
 	"github.com/c3sr/tracer"
 )
 
@@ -17,9 +16,9 @@ func ToHTTPRequest(tr tracer.Tracer) echo.MiddlewareFunc {
 			if sg == nil {
 				return next(c)
 			}
-			sg.SetTag(zipkincore.HTTP_HOST, req.Host)
-			sg.SetTag(zipkincore.HTTP_PATH, req.URL.String())
-			sg.SetTag(zipkincore.HTTP_METHOD, req.Method)
+			sg.SetTag("http.host", req.Host)
+			sg.SetTag("http.path", req.URL.String())
+			sg.SetTag("http.method", req.Method)
 			carrier := opentracing.HTTPHeadersCarrier(req.Header)
 			if err := tr.Inject(sg.Context(), opentracing.HTTPHeaders, carrier); err != nil {
 				log.Errorf("error encountered while trying to inject span: %+v", err)
