@@ -3,7 +3,7 @@ package jaeger
 import (
 	"github.com/opentracing-contrib/go-observer"
 	opentracing "github.com/opentracing/opentracing-go"
-	jaeger "github.com/jaegertracing/jaeger-client-go"
+	jaeger "github.com/uber/jaeger-client-go"
 )
 
 type wrapObserver struct {
