@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strconv"
 
-	model "github.com/jaegertracing/jaeger/model/json"
+	model "github.com/uber/jaeger/model/json"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"math"
 
 	"github.com/Workiva/go-datastructures/augmentedtree"
-	model "github.com/jaegertracing/jaeger/model/json"
+	model "github.com/uber/jaeger/model/json"
 )
 
 type Interval struct {

@@ -8,7 +8,7 @@ import (
 	"github.com/unknwon/com"
 	"github.com/Workiva/go-datastructures/augmentedtree"
 	"github.com/pkg/errors"
-	model "github.com/jaegertracing/jaeger/model/json"
+	model "github.com/uber/jaeger/model/json"
 	"github.com/ulule/deepcopier"
 )
 

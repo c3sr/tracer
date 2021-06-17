@@ -10,7 +10,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/c3sr/tracer/convert"
 	cnv "github.com/c3sr/tracer/convert"
-	model "github.com/jaegertracing/jaeger/model/json"
+	model "github.com/uber/jaeger/model/json"
 )
 
 type convertState struct {
